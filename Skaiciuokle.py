@@ -113,3 +113,9 @@ while True:
         break
     else:
         print("\n\033[1;31;40mNeteisingas pasirinkimas, bandykite dar kartą!\033[0m\n")
+
+
+
+        # Patobulinkite biudžeto programą, kad pajamų/išlaidų žurnalą atidarant programai nuskaitytų iš pickle failo, 
+        # o uždarant - perrašytų žurnalo pickle failą atnaujinta informacija. 
+        # Atkreipkite dėmesį, kad žurnalo įrašai yra objektai - jų sąrašo tiesiogiai json faile išsaugoti neitų.
